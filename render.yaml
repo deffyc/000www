@@ -1,9 +1,9 @@
 services:
-  # A Docker web service https://github.com/deffyc/alist-render
+  # A Docker web service https://github.com/deffyc/000www
   - type: web
     name: alist
     env: docker
-    repo: https://github.com/deffyc/alist-render.git # optional
+    repo: https://github.com/deffyc/000www.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
